@@ -50,16 +50,16 @@
             this.groupBox1.Controls.Add(this.txtKullanici);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(216, 85);
+            this.groupBox1.Location = new System.Drawing.Point(263, 118);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(331, 295);
+            this.groupBox1.Size = new System.Drawing.Size(261, 213);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Yönetici Girişi";
             // 
             // btnGiris
             // 
-            this.btnGiris.Location = new System.Drawing.Point(94, 183);
+            this.btnGiris.Location = new System.Drawing.Point(94, 154);
             this.btnGiris.Name = "btnGiris";
             this.btnGiris.Size = new System.Drawing.Size(75, 23);
             this.btnGiris.TabIndex = 4;
