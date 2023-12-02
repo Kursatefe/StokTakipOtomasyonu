@@ -23,12 +23,11 @@ namespace StokTakipOtomasyonu
             var sonuc=dAL.KullaniciGiris(txtKullanici.Text,txtSifre.Text);
             if (sonuc)
             {
-               Form1 form1=new Form1();
-               
-                form1.Show();
+               groupBox1.Visible = false;
+                menuStrip1.Visible = true;
                 
                 
-                this.Hide();
+                
                 MessageBox.Show("Giriş Başarılı!");
             }
             else
@@ -41,6 +40,31 @@ namespace StokTakipOtomasyonu
         private void Login_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void kategoriYönetimiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Kategori_Yönetimi kategori_Yönetimi = new Kategori_Yönetimi();
+
+            kategori_Yönetimi.ShowDialog();
+        }
+
+        private void ürünYönetimiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.ShowDialog();
+
+        }
+
+        private void kullanıcıToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            KullaniciYonetimi kullaniciYonetimi=new KullaniciYonetimi();
+            kullaniciYonetimi.ShowDialog();
+        }
+
+        private void userToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

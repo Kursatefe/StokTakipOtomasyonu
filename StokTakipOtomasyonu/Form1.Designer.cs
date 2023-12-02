@@ -47,7 +47,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtAra = new System.Windows.Forms.TextBox();
             this.btnAra = new System.Windows.Forms.Button();
-            this.btnKategori = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUrunler)).BeginInit();
             this.txtUrunBilgileri.SuspendLayout();
             this.SuspendLayout();
@@ -110,7 +109,6 @@
             // 
             this.txtUrunBilgileri.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("txtUrunBilgileri.BackgroundImage")));
             this.txtUrunBilgileri.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.txtUrunBilgileri.Controls.Add(this.btnKategori);
             this.txtUrunBilgileri.Controls.Add(this.btnGeri);
             this.txtUrunBilgileri.Controls.Add(this.txtStok);
             this.txtUrunBilgileri.Controls.Add(this.btnGuncelle);
@@ -223,16 +221,6 @@
             this.btnAra.UseVisualStyleBackColor = true;
             this.btnAra.Click += new System.EventHandler(this.btnAra_Click);
             // 
-            // btnKategori
-            // 
-            this.btnKategori.Location = new System.Drawing.Point(145, 364);
-            this.btnKategori.Name = "btnKategori";
-            this.btnKategori.Size = new System.Drawing.Size(75, 23);
-            this.btnKategori.TabIndex = 13;
-            this.btnKategori.Text = "kategori";
-            this.btnKategori.UseVisualStyleBackColor = true;
-            this.btnKategori.Click += new System.EventHandler(this.btnKategori_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -275,7 +263,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtAra;
         private System.Windows.Forms.Button btnAra;
-        private System.Windows.Forms.Button btnKategori;
     }
 }
 

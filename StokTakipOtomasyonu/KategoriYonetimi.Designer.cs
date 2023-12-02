@@ -40,7 +40,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtKategoriAdi = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnKullaniciYGit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKategoriler)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -59,7 +58,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnKullaniciYGit);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.CbDurum);
             this.groupBox1.Controls.Add(this.btnGeri);
@@ -169,16 +167,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Kategori Adı";
             // 
-            // btnKullaniciYGit
-            // 
-            this.btnKullaniciYGit.Location = new System.Drawing.Point(93, 229);
-            this.btnKullaniciYGit.Name = "btnKullaniciYGit";
-            this.btnKullaniciYGit.Size = new System.Drawing.Size(182, 23);
-            this.btnKullaniciYGit.TabIndex = 9;
-            this.btnKullaniciYGit.Text = "Kullanıcı Yönetimine Git";
-            this.btnKullaniciYGit.UseVisualStyleBackColor = true;
-            this.btnKullaniciYGit.Click += new System.EventHandler(this.btnKullaniciYGit_Click);
-            // 
             // Kategori_Yönetimi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -210,6 +198,5 @@
         private System.Windows.Forms.Button btnGuncelle;
         private System.Windows.Forms.Button btnSil;
         private System.Windows.Forms.Button btnEkle;
-        private System.Windows.Forms.Button btnKullaniciYGit;
     }
 }
